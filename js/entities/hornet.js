@@ -14,7 +14,7 @@ SF.Hornet = SF.Sprite.extend({
         this.q = Math.ceil( this.r / 2 );
 
         this.checkCollision = true;
-        this.strength = -3;
+        this.strength = -2;
         this.respawn();
 
     },
